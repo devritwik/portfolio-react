@@ -1,0 +1,26 @@
+.SkillItem{
+    color: whitesmoke;
+    background-color: #0b1628;
+    text-align: center;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    
+
+
+}
+.SkillItem > div{
+    padding: 0.7rem;
+    background-color:#132441;
+    border-radius: 1rem;
+}
+.SkillItem div img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.SkillItem h4{
+    margin-left: 1rem;
+}

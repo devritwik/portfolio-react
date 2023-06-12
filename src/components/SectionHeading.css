@@ -1,0 +1,14 @@
+.SectionHeading{
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 0.5rem;
+
+}
+
+.Underline{
+    height: 0.2rem;
+    width: 5rem;
+    background-color: #12A9FF;
+    margin: auto;
+    border-radius: 2rem;
+}

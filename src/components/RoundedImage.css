@@ -1,0 +1,36 @@
+.RoundedImage img{
+    width: 12rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 1s;
+    
+}
+
+.RoundedImage img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.RoundedImage{
+    position: relative;
+}
+
+.RoundedImage::after {
+    content: "Open To Work..";
+    background-color: aqua;
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    transform: translate(-70%);
+    z-index: 1;
+    border-radius: 2rem 2rem 0rem 2rem;
+    padding: 1rem;
+
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 0.5s;
+  }
+  .RoundedImage:hover::after {
+    visibility: visible;
+    transition-duration: 0.5s;
+    opacity: 1;
+  }

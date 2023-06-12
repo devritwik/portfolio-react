@@ -1,0 +1,29 @@
+.IconButton{
+    color: #10ACFF;
+    font-size: 2rem;
+    background-color: #212A34;
+    font-weight: 600;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    direction: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    padding-right: 2rem;
+    transition: 1s;
+
+}
+
+.IconButton:hover{
+    background-color: #394A5A;
+    color: #2db2fa;
+}
+
+.IconButton img{
+    width: 3rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+
+}

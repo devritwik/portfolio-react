@@ -1,0 +1,26 @@
+.SocialIcon{
+  
+    background-color: #132441;
+    height: 3rem;
+    width: 3rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin: 0.4rem;
+
+    
+}
+
+.SocialIcon img{
+    width: 2.5rem;
+    opacity: 0.6;
+    transition-duration: 1s;
+}
+
+.SocialIcon img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
