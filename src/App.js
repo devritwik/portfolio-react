@@ -34,13 +34,13 @@ import FBIcon from './asset/icons/icons8-facebook.svg';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className='Social'>
-          <SocialIcon link={"#"} src={LinkedInIcon}/>
-          <SocialIcon link={"#"} src={GithubIcon}/>
-          <SocialIcon link={"#"} src={TwitterIcon}/>
-          <SocialIcon link={"#"} src={FBIcon}/>
+      <div className='Social'>
+          <SocialIcon link={"https://www.linkedin.com/in/ritwikdax/"} src={LinkedInIcon}/>
+          <SocialIcon link={"https://github.com/devritwik"} src={GithubIcon}/>
+          <SocialIcon link={"https://twitter.com/ritwikdax"} src={TwitterIcon}/>
+          <SocialIcon link={"https://www.facebook.com/ritwik.das.3348"} src={FBIcon}/>
         </div>
+      <header className="App-header">
         <div className='Main'>
           
             <div><RoundedImage/></div>
